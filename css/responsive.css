@@ -1,0 +1,103 @@
+@media (max-width:1024px){
+/* about section */
+
+}
+
+
+@media(max-width:991px){
+    /* custom classes */
+    .text-content{
+        width: 100%;
+    }
+
+    /* navbar brand */
+
+    .navbar-wrap .navbar-brand img{
+        height: 3.8125rem;
+    }
+    .navbar-wrap{
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navbar-wrap .nav-link{
+        line-height: 1.875rem;
+    }
+
+    /* bannerdesign */
+    .top-banner{
+        padding: 9.375rem 0 9.375rem ;
+    }
+
+    /* we make everything */
+    .text-sec-2{
+        padding-left: 32px;
+    }
+
+    /* corousel desing */
+    .testminial-section .carousel-item .carousel-caption p{
+        padding: 0;
+    }
+
+
+  
+}
+
+@media (max-width:767px){
+    /* custom css */
+    h1{
+        font-size: 2.7rem;
+    }
+    h2{
+        font-size: 2rem;
+        line-height: 2.0635rem;
+    }
+    /* banner */
+    .top-banner{
+        padding: 10.875rem 0 9.375rem;
+    }
+
+
+    /* story section */
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+        text-align: center;
+    }
+
+    /* we make everything  */
+    .text-sec-2{
+        padding-left: 32px;
+    }
+
+     /* corousel desing */
+     
+     .testminial-section .carousel-item {
+         padding: 11rem 3.125rem;
+
+    }
+
+    /* newsleter */
+    .newsletter
+    {
+        width: 90%;
+    }
+    .newsletter .main-btn{
+        width: 100%;
+        margin-top :1rem; 
+    }
+    
+
+    /* footer link */
+    .footer .footer-link,.footer a i{
+        padding: 0 0.7rem;
+    }
+     
+}
+
+
+@media (max-width:330px) {
+    /* corousel design */
+    .testminial-section .carousel-item {
+        padding: 13rem 3.125rem;
+    }
+}
